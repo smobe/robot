@@ -1,6 +1,11 @@
 # directories
 code/cpp/build
 
+# eclipse files
+.cproject
+.project
+.settings
+
 # Prerequisites
 *.d
 
