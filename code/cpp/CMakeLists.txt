@@ -1,0 +1,3 @@
+project(robot)
+
+subdirs(src)
