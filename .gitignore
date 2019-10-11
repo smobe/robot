@@ -1,4 +1,6 @@
 # directories
+
+build/
 code/cpp/build
 
 # eclipse files
