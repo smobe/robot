@@ -3,6 +3,7 @@ INCLUDE_DIRECTORIES(.)
 
 subdirs(socket)
 subdirs(stream)
+subdirs(examples)
 
 FIND_PACKAGE(OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
