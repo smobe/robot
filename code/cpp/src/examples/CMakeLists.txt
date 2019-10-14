@@ -20,3 +20,7 @@ target_link_libraries (hsv_conversion  ${raspicam_LIBS} ${raspicam_CV_LIBS} ${Op
 add_executable (watershed watershed.cpp)
 target_link_libraries (watershed  ${raspicam_LIBS} ${raspicam_CV_LIBS} ${OpenCV_LIBS} ${Boost_LIBS})
 
+add_executable (tracking tracking.cpp)
+target_link_libraries (tracking  ${raspicam_LIBS} ${raspicam_CV_LIBS} ${OpenCV_LIBS} ${Boost_LIBS})
+
+
