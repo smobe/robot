@@ -13,7 +13,7 @@ struct FrameHeader{
 
     uint32_t height, width, type;
     uint64_t frame_timestamp;
-    uint64_t currenct_clock;
+    uint64_t current_clock;
 };
 
 } // namespace rf

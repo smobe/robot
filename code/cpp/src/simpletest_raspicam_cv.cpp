@@ -97,8 +97,8 @@ int main ( int argc,char **argv ) {
    	    //std::cout << (mics - last) << " " << (1000000 / (mics - last)) << " fps" << std::endl;
    	    last= mics;
 
-        //cv::imshow("edges", image);
-        //if(cv::waitKey(30) >= 27) break;
+        cv::imshow("edges", image);
+        if(cv::waitKey(30) >= 27) break;
 
 
     }

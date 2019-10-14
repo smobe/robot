@@ -87,7 +87,7 @@ int camera_loop()
         camera.retrieve (image);
 
         // get meta data
-        header.currenct_clock = rf::microSinceEpoc();
+        header.current_clock = rf::microSinceEpoc();
         header.frame_timestamp = camera.getFrameCallbackTime();
         header.height = image.rows;
         header.width = image.cols;
@@ -107,7 +107,7 @@ int camera_loop()
             cerr << "ERROR writing to socket" << endl;
             break;
         }
-        cout<<"Client: frame header "<< header.currenct_clock << " " << header.frame_timestamp << " "
+        cout<<"Client: frame header "<< header.current_clock << " " << header.frame_timestamp << " "
         << header.height<< " " << header.width << " " << header.type << endl;
     }
 
